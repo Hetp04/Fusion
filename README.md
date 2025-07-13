@@ -24,7 +24,7 @@ A web application for learning music with AI-powered feedback and rhythm trainin
 
 ## Features
 
-- **Piano Room**: Learn piano songs with AI feedback
+- **Piano Room**: Learn piano songsx with AI feedback
 - **Rhythm Trainer**: Improve timing and coordination
 - **Sheet Music Display**: Interactive music visualization
 
@@ -33,10 +33,19 @@ A web application for learning music with AI-powered feedback and rhythm trainin
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 
+## Common Troubleshooting tips 
 
-## Troubleshooting
-
-If you encounter issues:
-- Make sure Node.js version 18+ is installed
-- Try clearing npm cache: `npm cache clean --force`
-- Check browser console for errors
+**Dependencies not installing:**
+```bash
+# Clear cache and reinstall
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+```
+**Build not working:**
+```bash
+# Clear cache and reinstall
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+```
