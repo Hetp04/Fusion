@@ -133,7 +133,7 @@ const DraggableNote: React.FC<DraggableNoteProps> = ({ note }) => {
       }}
     >
       <motion.img
-        src="/quarterNote.svg"
+        src="quarterNote.svg"
         alt="Quarter Note"
         className="cursor-grab active:cursor-grabbing"
         style={{

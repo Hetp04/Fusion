@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router';
 import * as Tone from 'tone';
-import { motion, useAnimation, AnimationControls } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { generateRandomMeasure, generateRandomMusicXML } from '../utils/rhythm';
 import OSMDRenderer from '../components/OSMDRenderer';
 
@@ -30,7 +30,7 @@ const Rhythm: React.FC = () => {
 
   // Refs & Animation controls (shared)
   const beatTimesRef = useRef<number[]>([]);
-  const pulseControls: AnimationControls = useAnimation();
+  const pulseControls = useAnimation();
 
   // Generate a new music measure
   const generateNewMeasure = (): void => {
@@ -163,6 +163,8 @@ const Rhythm: React.FC = () => {
   
   // Resets 
   const resetMeasure = (): void => {
+    Tone.Transport.stop();
+    Tone.Transport.cancel(0);
     setMeasureCountdown(null);
     setMeasureActive(false);
     setMeasureFinished(false);
@@ -173,6 +175,8 @@ const Rhythm: React.FC = () => {
   };
 
   const replayMeasure = (): void => {
+    Tone.Transport.stop();
+    Tone.Transport.cancel(0);
     setMeasureCountdown(null);
     setMeasureActive(false);
     setMeasureFinished(false);
@@ -204,6 +208,8 @@ const Rhythm: React.FC = () => {
           // When the required number of taps is reached, mark the measure as finished.
           if (index + 1 === measureExpectedBeatTimes.length) {
             setMeasureFinished(true);
+            Tone.Transport.stop();
+            Tone.Transport.cancel(0);
           }
         }
       }

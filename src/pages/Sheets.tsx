@@ -20,7 +20,7 @@ export function SheetMusicOSMD() {
   const navigate = useNavigate();
   
   const [selectedFile, setSelectedFile] = useState<string>(() => {
-    return localStorage.getItem('selectedSheetMusic') || '/twinkle.musicxml';
+    return localStorage.getItem('selectedSheetMusic') || 'twinkle.musicxml';
   });
   const [musicXML, setMusicXML] = useState<string | null>(null);
   const osmdContainerRef = useRef<HTMLDivElement>(null);
@@ -464,11 +464,11 @@ export function SheetMusicOSMD() {
   const pressStartTimes = useRef<{ [key: string]: number }>({});
 
   const sheetMusicFiles = [
-    { label: 'Twinkle, Twinkle, Little Star', file: '/twinkle.musicxml' },
-    { label: 'When the Saints go Marching in', file: '/saints.musicxml' },
-    { label: 'Mary Had a Little Lamb', file: '/mary.musicxml' },
-    { label: 'Itsy Bitsy Spider', file: '/spider.musicxml' },
-    { label: 'Amazing Grace', file: '/amazing_grace.musicxml' },
+    { label: 'Twinkle, Twinkle, Little Star', file: 'twinkle.musicxml' },
+    { label: 'When the Saints go Marching in', file: 'saints.musicxml' },
+    { label: 'Mary Had a Little Lamb', file: 'mary.musicxml' },
+    { label: 'Itsy Bitsy Spider', file: 'spider.musicxml' },
+    { label: 'Amazing Grace', file: 'amazing_grace.musicxml' },
   ];
 
   // Handle selection change (dropdown)
@@ -606,7 +606,7 @@ export function SheetMusicOSMD() {
     if (selectedFile === 'uploaded' && uploadedMusicXML) {
       setMusicXML(uploadedMusicXML);
     } else if (selectedFile !== 'uploaded') {
-      fetch(selectedFile)
+      fetch(`${import.meta.env.BASE_URL}${selectedFile}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error('Failed to load the music XML file');
@@ -1481,7 +1481,7 @@ Give 2-3 specific, actionable tips. Be direct and encouraging.`;
             className="flex items-center justify-center p-2 rounded-full hover:bg-blue-100 transition"
             aria-label="Gemini Chat"
           >
-            <img src="/gemini_icon.png" alt="Chat" className="h-10 w-10 filter grayscale" />
+            <img src="gemini_icon.png" alt="Chat" className="h-10 w-10 filter grayscale" />
           </button>
         </div>
       </div>
