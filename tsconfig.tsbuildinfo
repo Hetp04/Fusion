@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/dash.tsx","./src/keyboard.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/osmdrenderer.tsx","./src/components/quarternotes.tsx","./src/pages/index.tsx","./src/pages/rhythm.tsx","./src/pages/sheets.tsx","./src/pages/tone.tsx","./src/utils/rhythm.ts"],"version":"5.7.3"}

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise>
+<movement-title>When the saints go marching in</movement-title>
+<identification>
+<creator type="composer">anon.</creator>
+<encoding>
+<encoder>abc2xml version 63</encoder>
+<encoding-date>2025-04-05</encoding-date>
+</encoding>
+</identification>
+<credit page="1">
+<credit-type>origin</credit-type>
+<credit-words>USA</credit-words>
+</credit>
+<credit page="1">
+<credit-type>fileurl</credit-type>
+<credit-words>http://abc.musicaviva.com/tunes/usa/when-the-saints.abc</credit-words>
+</credit>
+<credit page="1">
+<credit-type>rhythm</credit-type>
+<credit-words>Negro spiritual</credit-words>
+</credit>
+<part-list>
+<score-part id="P1">
+<part-name>Piano</part-name>
+</score-part>
+</part-list>
+<part id="P1">
+<measure number="1">
+<attributes>
+<divisions>120</divisions>
+<key>
+<fifths>0</fifths>
+<mode>major</mode>
+</key>
+<time>
+<beats>4</beats>
+<beat-type>4</beat-type>
+</time>
+</attributes>
+<note>
+<pitch>
+<step>C</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>Oh</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>when</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>F</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>the</text>
+</lyric>
+</note>
+</measure>
+<measure number="2">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>G</step>
+<octave>4</octave>
+</pitch>
+<duration>480</duration>
+<voice>1</voice>
+<type>whole</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>saints</text>
+</lyric>
+</note>
+</measure>
+<measure number="3">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<rest/>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+</note>
+<note>
+<pitch>
+<step>C</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>go</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>begin</syllabic>
+<text>march</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>F</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>end</syllabic>
+<text>ing</text>
+</lyric>
+</note>
+</measure>
+<measure number="4">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>G</step>
+<octave>4</octave>
+</pitch>
+<duration>480</duration>
+<voice>1</voice>
+<type>whole</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>in,</text>
+</lyric>
+</note>
+</measure>
+<measure number="5">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<rest/>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+</note>
+<note>
+<pitch>
+<step>C</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>oh</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>when</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>F</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>the</text>
+</lyric>
+</note>
+</measure>
+<measure number="6">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>G</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>saints</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>go</text>
+</lyric>
+</note>
+</measure>
+<measure number="7">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>C</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>begin</syllabic>
+<text>march</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>end</syllabic>
+<text>ing</text>
+</lyric>
+</note>
+</measure>
+<measure number="8">
+<harmony>
+<root>
+<root-step>G</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>D</step>
+<octave>4</octave>
+</pitch>
+<duration>480</duration>
+<voice>1</voice>
+<type>whole</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>in.</text>
+</lyric>
+</note>
+</measure>
+<measure number="9">
+<harmony>
+<root>
+<root-step>G</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<rest/>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>I</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>want</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>D</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>to</text>
+</lyric>
+</note>
+</measure>
+<measure number="10">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>C</step>
+<octave>4</octave>
+</pitch>
+<duration>480</duration>
+<voice>1</voice>
+<type>whole</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>be</text>
+</lyric>
+</note>
+</measure>
+<measure number="11">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>in</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>G</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>that</text>
+</lyric>
+</note>
+</measure>
+<measure number="12">
+<harmony>
+<root>
+<root-step>F</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>G</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>begin</syllabic>
+<text>numb</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>F</step>
+<octave>4</octave>
+</pitch>
+<duration>360</duration>
+<voice>1</voice>
+<type>half</type>
+<dot/>
+<lyric number="1">
+<syllabic>end</syllabic>
+<text>er</text>
+</lyric>
+</note>
+</measure>
+<measure number="13">
+<harmony>
+<root>
+<root-step>F</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<rest/>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>when</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>F</step>
+<octave>4</octave>
+</pitch>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>the</text>
+</lyric>
+</note>
+</measure>
+<measure number="14">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>G</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>saints</text>
+</lyric>
+</note>
+<note>
+<pitch>
+<step>E</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>go</text>
+</lyric>
+</note>
+</measure>
+<measure number="15">
+<harmony>
+<root>
+<root-step>F</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>C</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>begin</syllabic>
+<text>march</text>
+</lyric>
+</note>
+<harmony>
+<root>
+<root-step>G</root-step>
+</root>
+<kind>major</kind>
+</harmony>
+<note>
+<pitch>
+<step>D</step>
+<octave>4</octave>
+</pitch>
+<duration>240</duration>
+<voice>1</voice>
+<type>half</type>
+<lyric number="1">
+<syllabic>end</syllabic>
+<text>ing</text>
+</lyric>
+</note>
+</measure>
+<measure number="16">
+<harmony>
+<root>
+<root-step>C</root-step>
+</root>
+<kind>major</kind>
+<degree>
+<degree-value>4</degree-value>
+<degree-alter>0</degree-alter>
+<degree-type>add</degree-type>
+</degree>
+</harmony>
+<note>
+<pitch>
+<step>C</step>
+<octave>4</octave>
+</pitch>
+<duration>480</duration>
+<voice>1</voice>
+<type>whole</type>
+<lyric number="1">
+<syllabic>single</syllabic>
+<text>in.</text>
+</lyric>
+</note>
+</measure>
+<measure number="17">
+<note>
+<rest/>
+<duration>120</duration>
+<voice>1</voice>
+<type>quarter</type>
+</note>
+<barline location="right">
+<bar-style>light-heavy</bar-style>
+</barline>
+</measure>
+</part>
+</score-partwise>
